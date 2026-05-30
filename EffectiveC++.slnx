@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="EffectiveC++/EffectiveC++.vcxproj" Id="b9e55309-b23e-492d-8ee5-60c414635a43" />
+</Solution>
