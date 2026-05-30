@@ -235,17 +235,17 @@
 		}
 		char& operator[](std::size_t position) {
 			return const_cast<char&> (
-				static_cast<const TextBlock&>(*This)[position]
+				static_cast<const TextBlock&>(*this)[position]
 			);
 		}
 	};
 	/*
 	* 비상수 멤버 함수 operator[]는 다음과 같은 작업을 실행한다.
 	* 
-	* 1. static_cast<const TextBlock&>(*This): 비상수 객체인 자신을 상수 객체로 정적 캐스팅한다. 
+	* 1. static_cast<const TextBlock&>(*this): 비상수 객체인 자신을 상수 객체로 정적 캐스팅한다. 
 	*      이 때 템플릿 타입에 const가 붙지 않으면 탈출 없는 재귀가 발생한다. 
-	* 2. [position]: 상수 객체로서 상수 멤버 함수 operator[]를 호출하고 리턴을 가져온다. 이 때 리턴은 const char&이다.
-	* 3. return const_cast<char&>(...): 리턴의 const char&에서 const를 제거하여 char&로 만들고, 그 값을 최종 리턴한다.
+	* 2. [position]: 상수 객체로서 상수 멤버 함수 operator[]를 호출하고 리턴값을 받는다. 이 때 리턴값의 타입은 const char&이다.
+	* 3. return const_cast<char&>(...): 상수 operator[]의 리턴값의 타입인 const char&에서 const를 제거하여 char&로 만들고, 그 값을 최종 리턴한다.
 	*/
 }
 
@@ -255,6 +255,5 @@
 * 2. 컴파일러는 물리적 상수성만 판단하므로 사용자가 논리적 상수성을 챙겨야 한다.
 * 3. 상수 멤버 및 비상수 멤버 함수의 기능이 동일할 경우, 비상수 버전이 상수 버전을 호출하게 하여 코드 중복을 방지할 수 있다.
 */
-
 
 #endif
