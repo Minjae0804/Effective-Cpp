@@ -78,9 +78,9 @@
 	void f() {
 		...
 		// 팩토리 함수로 pInv1을 생성
-		std::tr1::shated_ptr<Investment> pInv1(createInvestment());
+		std::tr1::shared_ptr<Investment> pInv1(createInvestment());
 		// pInv2는 pInv1을 가리킴
-		std::tr1::shated_ptr<Investment> pInv2(pInv1);
+		std::tr1::shared_ptr<Investment> pInv2(pInv1);
 		// auto_ptr과 달리 여전히 pInv1과 pInv2는 동일한 대상을 가리킴
 		pInv1 = pInv2;
 		...
