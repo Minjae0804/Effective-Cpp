@@ -13,52 +13,64 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\1. C++에 왔으면 C++의 법을 따르라">
+      <UniqueIdentifier>{c0f7e158-384c-43e7-b996-dd96498c7859}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\2. 생성자, 소멸자 및 대입 연산자">
+      <UniqueIdentifier>{9639a8bd-c0b2-4650-a4db-a168cac0db5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\3. 자원 관리">
+      <UniqueIdentifier>{9f4f38ae-5dd1-4e62-baaf-3e16f1f49003}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="#2.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="#3.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="#4.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="#5.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="#6.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="#7.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="#8.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="#9.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="#10.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="#11.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="#12.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="#13.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="#14.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="template.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="#2.cpp">
+      <Filter>소스 파일\1. C++에 왔으면 C++의 법을 따르라</Filter>
+    </ClCompile>
+    <ClCompile Include="#3.cpp">
+      <Filter>소스 파일\1. C++에 왔으면 C++의 법을 따르라</Filter>
+    </ClCompile>
+    <ClCompile Include="#4.cpp">
+      <Filter>소스 파일\1. C++에 왔으면 C++의 법을 따르라</Filter>
+    </ClCompile>
+    <ClCompile Include="#5.cpp">
+      <Filter>소스 파일\2. 생성자, 소멸자 및 대입 연산자</Filter>
+    </ClCompile>
+    <ClCompile Include="#6.cpp">
+      <Filter>소스 파일\2. 생성자, 소멸자 및 대입 연산자</Filter>
+    </ClCompile>
+    <ClCompile Include="#7.cpp">
+      <Filter>소스 파일\2. 생성자, 소멸자 및 대입 연산자</Filter>
+    </ClCompile>
+    <ClCompile Include="#8.cpp">
+      <Filter>소스 파일\2. 생성자, 소멸자 및 대입 연산자</Filter>
+    </ClCompile>
+    <ClCompile Include="#9.cpp">
+      <Filter>소스 파일\2. 생성자, 소멸자 및 대입 연산자</Filter>
+    </ClCompile>
+    <ClCompile Include="#10.cpp">
+      <Filter>소스 파일\2. 생성자, 소멸자 및 대입 연산자</Filter>
+    </ClCompile>
+    <ClCompile Include="#11.cpp">
+      <Filter>소스 파일\2. 생성자, 소멸자 및 대입 연산자</Filter>
+    </ClCompile>
+    <ClCompile Include="#12.cpp">
+      <Filter>소스 파일\2. 생성자, 소멸자 및 대입 연산자</Filter>
+    </ClCompile>
+    <ClCompile Include="#13.cpp">
+      <Filter>소스 파일\3. 자원 관리</Filter>
+    </ClCompile>
+    <ClCompile Include="#14.cpp">
+      <Filter>소스 파일\3. 자원 관리</Filter>
+    </ClCompile>
     <ClCompile Include="#15.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\3. 자원 관리</Filter>
+    </ClCompile>
+    <ClCompile Include="#16.cpp">
+      <Filter>소스 파일\3. 자원 관리</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
