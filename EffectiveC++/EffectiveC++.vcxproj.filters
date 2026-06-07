@@ -81,5 +81,8 @@
     <ClCompile Include="#18.cpp">
       <Filter>소스 파일\4. 설계 및 선언</Filter>
     </ClCompile>
+    <ClCompile Include="#19.cpp">
+      <Filter>소스 파일\4. 설계 및 선언</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
