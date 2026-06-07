@@ -22,6 +22,9 @@
     <Filter Include="소스 파일\3. 자원 관리">
       <UniqueIdentifier>{9f4f38ae-5dd1-4e62-baaf-3e16f1f49003}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\4. 설계 및 선언">
+      <UniqueIdentifier>{15309886-0b94-40b5-8cc1-45865f2e8061}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="template.cpp">
@@ -74,6 +77,9 @@
     </ClCompile>
     <ClCompile Include="#17.cpp">
       <Filter>소스 파일\3. 자원 관리</Filter>
+    </ClCompile>
+    <ClCompile Include="#18.cpp">
+      <Filter>소스 파일\4. 설계 및 선언</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -181,7 +181,7 @@
 		mutable bool lenIsValid;
 	public:
 		...
-			std::size_t length() const;
+		std::size_t length() const;
 	};
 
 	std::size_t CTextBlock::length() const {
