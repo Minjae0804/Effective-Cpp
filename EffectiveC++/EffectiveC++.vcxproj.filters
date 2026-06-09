@@ -30,28 +30,28 @@
     <ClCompile Include="template.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="#2.cpp">
+    <ClCompile Include="#02.cpp">
       <Filter>소스 파일\1. C++에 왔으면 C++의 법을 따르라</Filter>
     </ClCompile>
-    <ClCompile Include="#3.cpp">
+    <ClCompile Include="#03.cpp">
       <Filter>소스 파일\1. C++에 왔으면 C++의 법을 따르라</Filter>
     </ClCompile>
-    <ClCompile Include="#4.cpp">
+    <ClCompile Include="#04.cpp">
       <Filter>소스 파일\1. C++에 왔으면 C++의 법을 따르라</Filter>
     </ClCompile>
-    <ClCompile Include="#5.cpp">
+    <ClCompile Include="#05.cpp">
       <Filter>소스 파일\2. 생성자, 소멸자 및 대입 연산자</Filter>
     </ClCompile>
-    <ClCompile Include="#6.cpp">
+    <ClCompile Include="#06.cpp">
       <Filter>소스 파일\2. 생성자, 소멸자 및 대입 연산자</Filter>
     </ClCompile>
-    <ClCompile Include="#7.cpp">
+    <ClCompile Include="#07.cpp">
       <Filter>소스 파일\2. 생성자, 소멸자 및 대입 연산자</Filter>
     </ClCompile>
-    <ClCompile Include="#8.cpp">
+    <ClCompile Include="#08.cpp">
       <Filter>소스 파일\2. 생성자, 소멸자 및 대입 연산자</Filter>
     </ClCompile>
-    <ClCompile Include="#9.cpp">
+    <ClCompile Include="#09.cpp">
       <Filter>소스 파일\2. 생성자, 소멸자 및 대입 연산자</Filter>
     </ClCompile>
     <ClCompile Include="#10.cpp">
