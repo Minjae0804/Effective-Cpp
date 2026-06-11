@@ -93,5 +93,11 @@
     <ClCompile Include="#22.cpp">
       <Filter>소스 파일\4. 설계 및 선언</Filter>
     </ClCompile>
+    <ClCompile Include="#23.cpp">
+      <Filter>소스 파일\4. 설계 및 선언</Filter>
+    </ClCompile>
+	<ClCompile Include="#24.cpp">
+		<Filter>소스 파일\4. 설계 및 선언</Filter>
+	</ClCompile>
   </ItemGroup>
 </Project>
