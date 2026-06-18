@@ -169,6 +169,7 @@
     <ClCompile Include="#29.cpp" />
     <ClCompile Include="#30.cpp" />
     <ClCompile Include="#31.cpp" />
+    <ClCompile Include="#32.cpp" />
     <ClCompile Include="template.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
