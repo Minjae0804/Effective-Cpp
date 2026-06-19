@@ -132,5 +132,8 @@
     <ClCompile Include="#33.cpp">
       <Filter>소스 파일\6. 상속, 객체 지향 설계</Filter>
     </ClCompile>
+    <ClCompile Include="#34.cpp">
+      <Filter>소스 파일\6. 상속, 객체 지향 설계</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
