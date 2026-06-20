@@ -5,7 +5,9 @@
 
 // summary
 {
-	// body
+	/*
+	* body
+	*/
 }
 /*
 * 결론.
