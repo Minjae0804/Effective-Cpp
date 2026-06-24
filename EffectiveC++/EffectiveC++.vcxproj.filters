@@ -31,6 +31,9 @@
     <Filter Include="소스 파일\6. 상속, 객체 지향 설계">
       <UniqueIdentifier>{4a127690-a882-4b9b-a10b-bab20810bbf9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\7. 템플릿과 제네릭 프로그래밍">
+      <UniqueIdentifier>{5255c24c-054b-4305-b678-02732671cab1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="template.cpp">
@@ -152,6 +155,9 @@
     </ClCompile>
     <ClCompile Include="#40.cpp">
       <Filter>소스 파일\6. 상속, 객체 지향 설계</Filter>
+    </ClCompile>
+    <ClCompile Include="#41.cpp">
+      <Filter>소스 파일\7. 템플릿과 제네릭 프로그래밍</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
