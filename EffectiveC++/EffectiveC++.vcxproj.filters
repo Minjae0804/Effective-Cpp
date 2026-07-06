@@ -174,5 +174,8 @@
     <ClCompile Include="#46.cpp">
       <Filter>소스 파일\7. 템플릿과 제네릭 프로그래밍</Filter>
     </ClCompile>
+    <ClCompile Include="#47.cpp">
+      <Filter>소스 파일\7. 템플릿과 제네릭 프로그래밍</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
