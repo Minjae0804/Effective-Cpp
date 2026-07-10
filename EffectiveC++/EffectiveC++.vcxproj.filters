@@ -34,6 +34,9 @@
     <Filter Include="소스 파일\7. 템플릿과 제네릭 프로그래밍">
       <UniqueIdentifier>{5255c24c-054b-4305-b678-02732671cab1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\8. new와 delete">
+      <UniqueIdentifier>{b350fd23-8fd9-4293-9ed6-8628264a2ef0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="template.cpp">
@@ -179,6 +182,9 @@
     </ClCompile>
     <ClCompile Include="48.cpp">
       <Filter>소스 파일\7. 템플릿과 제네릭 프로그래밍</Filter>
+    </ClCompile>
+    <ClCompile Include="#49.cpp">
+      <Filter>소스 파일\8. new와 delete</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
