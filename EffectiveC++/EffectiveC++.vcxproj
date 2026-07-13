@@ -187,6 +187,7 @@
     <ClCompile Include="#49.cpp" />
     <ClCompile Include="48.cpp" />
     <ClCompile Include="#50.cpp" />
+    <ClCompile Include="#51.cpp" />
     <ClCompile Include="template.cpp" />
     <ClCompile Include="#44.cpp" />
   </ItemGroup>

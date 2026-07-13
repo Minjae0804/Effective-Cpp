@@ -189,5 +189,8 @@
     <ClCompile Include="#50.cpp">
       <Filter>소스 파일\8. new와 delete</Filter>
     </ClCompile>
+    <ClCompile Include="#51.cpp">
+      <Filter>소스 파일\8. new와 delete</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
